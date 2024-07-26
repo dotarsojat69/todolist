@@ -1,10 +1,8 @@
 "use client";
 
 import { signInAction } from "@/action/auth-action";
-import { Button } from "@/components/ui/button";
 import clsx from "clsx";
 import { Loader, StepForward } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 import { useFormStatus } from "react-dom";
@@ -51,7 +49,7 @@ export default function LoginForm() {
             </h2>
             <div className="mt-12 flex flex-col gap-4">
               <form action={signInAction}>
-                <GetStartedButton />
+                
               </form>
               
             </div>
