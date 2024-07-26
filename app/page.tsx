@@ -41,7 +41,7 @@ export default function LoginForm() {
               </a>
             </span>
             <h1 className="inline-block text-center text-4xl font-medium tracking-tighter text-dark lg:text-7xl">
-              A Complex{" "}
+              A Simple{" "}
               <br className="hidden lg:inline-block" />
               Todo List
             </h1>
